@@ -6,6 +6,32 @@ from features import email_generator
 from features import fact_checker
 from features import image_detector
 
+st.set_page_config(
+
+    page_title="AI SmartSuite",
+
+    page_icon="🤖",
+
+    layout="wide",
+
+    initial_sidebar_state="collapsed"
+
+)
+
+st.markdown("""
+
+<style>
+
+#MainMenu {visibility: hidden;}
+
+header {visibility: hidden;}
+
+footer {visibility: hidden;}
+
+</style>
+
+""", unsafe_allow_html=True)
+
 # Apply styling
 apply_styles()
 
